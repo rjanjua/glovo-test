@@ -1,0 +1,31 @@
+{
+  "name": "ui-test-assessment",
+  "version": "1.0.0",
+  "description": "At employees.html the following client requirement has been implemented:\r - The possibility to see the city of origin of the selected employees in a list.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s2oBCN/ui-test-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s2oBCN/ui-test-assessment/issues"
+  },
+  "homepage": "https://github.com/s2oBCN/ui-test-assessment#readme",
+  "devDependencies": {
+    "@wdio/cli": "^5.18.2",
+    "@wdio/local-runner": "^5.18.2",
+    "@wdio/mocha-framework": "^5.16.15",
+    "@wdio/spec-reporter": "^5.16.11",
+    "@wdio/sync": "^5.17.0",
+    "chromedriver": "^79.0.0",
+    "wdio-chromedriver-service": "^5.0.2"
+  }
+}
